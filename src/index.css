@@ -1,3 +1,11 @@
+#users-index img {
+  width: 30px;
+}
+
+#users-show img {
+  width: 30px;
+}
+
 html {
   scroll-behavior: smooth;
 }
