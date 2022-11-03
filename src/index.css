@@ -8,6 +8,7 @@ html {
 }
 
 .card img {
-  height: 300px;
-  object-fit:cover;
+  height: 100px;
+  object-fit:scale-down;
 }
+
