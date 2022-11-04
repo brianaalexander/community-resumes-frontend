@@ -12,3 +12,8 @@ html {
   object-fit:scale-down;
 }
 
+#root {
+  background-color: beige ;
+  min-height: 100vh;
+}
+

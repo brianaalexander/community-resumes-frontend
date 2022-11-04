@@ -7,7 +7,7 @@ export function UsersIndex(props) {
   return (
     <div id="users-index">
       <h1>All Users</h1>
-      <div className="container">
+      <div className="container-fluid">
         Search filter:{" "}
         <input
           value={searchFilter}
@@ -25,8 +25,8 @@ export function UsersIndex(props) {
             .filter((user) => user.first_name.toLowerCase().includes(searchFilter.toLowerCase()))
             .map((user) => (
               <div key={user.id}>
-                <div className="card mb-2">
-                  <img src={user.image_url} className="card-img-top" />
+                <div className="card flex-row m-3">
+                  <img src={user.image_url} className="card-img-left example-card-img-responsive" />
                   <div className="card-body">
                     <h2 className="card-name">
                       {user.first_name} {user.last_name}
