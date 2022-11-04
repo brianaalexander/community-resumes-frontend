@@ -31,7 +31,8 @@ export function UsersIndex(props) {
                     <h2 className="card-name">
                       {user.first_name} {user.last_name}
                     </h2>
-                    <p className="card-text">{user.personal_website_url}</p>
+                    <p className="card-text">{user.email}</p>
+                    <p className="card-text">{user.phone_number}</p>
                     <a className="btn btn-primary" onClick={() => props.onSelectUser(user)}>
                       More Info
                     </a>
